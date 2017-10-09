@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <div id="buttContainer">
-          <button id="scrapeArt">Hello World</button> 
+          <button id="scrapeArt">Scrape Sports Articles</button> 
         </div>
       </div>
     );
