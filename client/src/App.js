@@ -1,16 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import ScrapeButton from "./components/scrapeButton/scrapeButton"
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <div id="buttContainer">
-          <button id="scrapeArt">Scrape Sports Articles</button> 
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => <ScrapeButton />;
 
 export default App;
